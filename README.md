@@ -42,7 +42,7 @@ You now have your environment set up to use D3.
 ## Testing D3
 We can now test that D3 is running correctly by adding some code to `main.js`.
 
-First, edit `index.html` to inculude some elements to modify using D3:
+First, edit `index.html` to include some elements to modify using D3:
 
 ````html
 <html>
@@ -62,7 +62,7 @@ Now we can add some code to `main.js` to find and modify both of these elements:
 
 ````javascript
 // Use D3 to select the heading by ID and append some text.
-d3.select("#heading").append("span").text(" A basic D3 example:")
+d3.select("#heading").append("span").text("A basic D3 example:")
 
 // Inject a new SVG into the container div with the ID "svgcontainer"
 var width = 400;
