@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<script src = "lib/d3.js"></script>
+	</head>
+
+	<body>
+		<h1 id = "heading">This is some text to be replaced.</h1>
+
+		<p>This recangle is drawn using plain HTML:</p>
+		<svg id = "graphic" width = "300" height = "300">
+   			<rect x = "0" y = "0" width = "300" height = "200" fill = "red"></rect>
+		</svg>
+
+		<p>This recangle is drawn using D3:</p>
+		<div id = "svg_container"></div>
+
+		<p>This rectangle has been created and then transformed using D3:</p>
+		<div id = "svg_transform_container"></div>
+
+		<p>This rectangle has a transition applied to it using D3:</p>
+		<div id = "svg_transform_lib_container"></div>
+
+		<p>Here is a bar chart generated using D3:</p>
+		<p id="data_list">This is the data: </p>
+		<div id = "bar_chart"></div>
+
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
